@@ -2,14 +2,14 @@
 
 # 📶 usage-band
 
-[![CI: check](https://github.com/zexion7873/usage-band/actions/workflows/check.yml/badge.svg)](https://github.com/zexion7873/usage-band/actions/workflows/check.yml)
+[![CI: check](https://github.com/oddshelf/usage-band/actions/workflows/check.yml/badge.svg)](https://github.com/oddshelf/usage-band/actions/workflows/check.yml)
 
 <img src="docs/band.svg" width="615" title="Drawn by the mod's own bar() from sample figures — not a screenshot." alt="The usage band, drawn by the mod's own bar() from sample figures rather than a screenshot: ctx at 42% with 84k of 200k tokens and a red tick at the 80% auto-compact point, 5h at 67% in amber with 1h48m to reset and its pace tick at 64% drawn white where the fill covers it, wk at 89% in red with 2d21h to reset and its pace tick at 59% likewise white, then cache 83%.">
 
 **Context fill and every rate-limit window, always on, right above the Claude
 Code prompt — in the desktop app's Code tab as well as the terminal.**
 
-[![License: MIT](https://img.shields.io/github/license/zexion7873/usage-band?style=flat)](LICENSE)
+[![License: MIT](https://img.shields.io/github/license/oddshelf/usage-band?style=flat)](LICENSE)
 [![Surface: desktop | terminal](https://img.shields.io/badge/surface-desktop%20%7C%20terminal-lightgrey?style=flat)](#%EF%B8%8F-desktop-and-terminal)
 [![Network: none](https://img.shields.io/badge/network-none-brightgreen?style=flat)](#-how-it-works)
 
@@ -27,7 +27,7 @@ Claude Code's own session usage.
 Paste this and walk away:
 
 ```text
-Fetch and follow https://raw.githubusercontent.com/zexion7873/usage-band/main/llms-install.md
+Fetch and follow https://raw.githubusercontent.com/oddshelf/usage-band/main/llms-install.md
 ```
 
 It installs from the CLI and verifies the install. Recipe in
@@ -38,7 +38,7 @@ It installs from the CLI and verifies the install. Recipe in
 From inside a Claude Code terminal session:
 
 ```text
-/plugin marketplace add zexion7873/usage-band
+/plugin marketplace add oddshelf/usage-band
 /plugin install usage-band@usage-band
 ```
 
@@ -182,7 +182,7 @@ with what it sees:
 | No band at all | `claude plugin list` should show `usage-band@usage-band` as loaded. A session picks up plugins only when it starts, so open a new one after installing or updating. Mods also need a recent Claude Code — see Requirements. The band draws in a terminal session (an editor's integrated terminal included) and the desktop app's Code tab; the VS Code extension's panel and the mobile app draw none. |
 | Band missing for a moment | It steps aside while Claude Code shows a survey above the prompt, and draws nothing until the session has started. |
 | No `5h` / `wk` / `spend` | Only the windows Claude Code reports for your account are drawn; `spend` appears only with a spend limit. |
-| A figure looks wrong | Compare it with Claude Code's own usage panel, then [open a bug](https://github.com/zexion7873/usage-band/issues/new?template=bug.yml) with both values and where you ran it. |
+| A figure looks wrong | Compare it with Claude Code's own usage panel, then [open a bug](https://github.com/oddshelf/usage-band/issues/new?template=bug.yml) with both values and where you ran it. |
 
 ---
 

@@ -6,7 +6,7 @@
 install from, so a working exploit in a public issue is a working exploit
 against every install that has already pulled.
 
-Use [GitHub's private vulnerability reporting](https://github.com/zexion7873/usage-band/security/advisories/new).
+Use [GitHub's private vulnerability reporting](https://github.com/oddshelf/usage-band/security/advisories/new).
 
 This is a one-person project. You will get a first response within a few days,
 not within hours, and the fix ships as a version bump in

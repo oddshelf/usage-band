@@ -22,7 +22,7 @@ The `/plugin` commands in the README are REPL slash commands and won't work
 from a shell — use the CLI:
 
 ```bash
-claude plugin marketplace add zexion7873/usage-band
+claude plugin marketplace add oddshelf/usage-band
 claude plugin install usage-band@usage-band
 ```
 

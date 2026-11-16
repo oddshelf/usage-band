@@ -7,9 +7,9 @@
     "name": "Kevin Lin"
   },
   "keywords": ["claude-code-mod", "usage-meter", "rate-limit", "context-window", "token-usage", "overlay"],
-  "homepage": "https://github.com/zexion7873/usage-band#readme",
-  "repository": "https://github.com/zexion7873/usage-band",
-  "documentationUrl": "https://github.com/zexion7873/usage-band#readme",
-  "supportUrl": "https://github.com/zexion7873/usage-band/issues",
-  "privacyPolicyUrl": "https://github.com/zexion7873/usage-band/blob/main/SECURITY.md#what-this-plugin-actually-does-on-your-machine"
+  "homepage": "https://github.com/oddshelf/usage-band#readme",
+  "repository": "https://github.com/oddshelf/usage-band",
+  "documentationUrl": "https://github.com/oddshelf/usage-band#readme",
+  "supportUrl": "https://github.com/oddshelf/usage-band/issues",
+  "privacyPolicyUrl": "https://github.com/oddshelf/usage-band/blob/main/SECURITY.md#what-this-plugin-actually-does-on-your-machine"
 }
